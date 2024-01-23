@@ -1,0 +1,120 @@
+.item-container {
+  /* height: 200px; */
+  /* width: 67%; */
+  padding: 10px;
+  /* border: 2px solid saddlebrown; */
+  /* margin-right: 100px; */
+  display: flex;
+  justify-content: flex-start; /* Align items to the start of the main axis (horizontally). */
+  align-items: flex-start;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 0px 5px 0px;
+  text-decoration: none;
+  color: black;
+  /* border: 1px solid red; */
+}
+.bold-next-icon {
+  width: 25px;
+}
+.blue-next-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+.slider-item {
+  flex: 0 0 auto;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  justify-content: flex-start;
+  /* border: 2px solid saddlebrown; */
+}
+.heading-img-text-container {
+  /* width: 185px; */
+  /* height: 230px; */
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  border-radius: 5px;
+  border: 0.01rem solid #d9d9d9;
+  text-decoration: none;
+  padding: 3px;
+  color: #212121;
+  margin-right: 15px;
+  overflow: hidden;
+  /* width: 90%; */
+  /* box-sizing: content-box; */
+}
+.product-img {
+  width: 99%;
+  margin: 0px 0px 10px 0px;
+  display: block;
+  object-fit: contain;
+  opacity: 1;
+  aspect-ratio: 1 / 1;
+}
+.heading-img-text-container:hover .product-img {
+  transform: scale(1.02); /* Increase the size of the image on hover */
+  transition: transform 0.1s;
+}
+@media (1190px >= width) {
+  .product-img {
+    margin: 0px;
+  }
+}
+.carousel-heading {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.product-name {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(68, 68, 68);
+  margin: 2px 0px 0px 0px;
+}
+.product-price-1 {
+  text-align: center;
+  font-size: 15px;
+  color: #2a2a2a;
+  font-weight: bold;
+
+  margin: 0px;
+}
+.deleted-price {
+  color: gray;
+  font-weight: normal;
+}
+/* .product-img:hover {
+  width: 100%;
+  .product-name {
+    margin: 0px 0px 0px 0px;
+  }
+} */
+.rupee-price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-top: 3px;
+}
+.indi-rupee-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: -4px;
+}

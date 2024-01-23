@@ -1,0 +1,8 @@
+.carousel-container-1 {
+  margin-top: 16px;
+}
+@media (1190px >= width) {
+  .carousel-container-1 {
+    height: 150px;
+  }
+}

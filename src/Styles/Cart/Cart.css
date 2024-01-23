@@ -1,0 +1,12 @@
+.cart-container {
+  /* border: 1px solid red; */
+  position: relative;
+  font-family: "Roboto", "Work Sans", sans-serif;
+}
+.middle-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 22px 17px 35px 10px;
+}

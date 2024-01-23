@@ -1,0 +1,81 @@
+.banner-item-container {
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+  padding: 15px 7px 15px 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  /* overflow-x: auto; */
+  gap: 2.8rem;
+}
+@media (1190px >= width) {
+  .banner-item-container {
+    overflow-x: auto;
+    padding: 15px 7px 5px 0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    justify-content: flex-start;
+    /* border: 2px solid dodgerblue; */
+  }
+  .banner-item-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media (400px >= width) {
+  .banner-item-container {
+    width: 100%;
+  }
+}
+.banner-link {
+  /* width: 180px; */
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  /* border: 1px solid red; */
+  /* margin-left: 22px; */
+  min-width: 70px;
+}
+.banner-link:first-child {
+  padding-left: 30px;
+}
+.banner-link:second-child {
+  padding-right: 30px;
+}
+@media (1190px >= width) {
+  .banner-link {
+    min-width: 80px;
+    /* border: 1px solid dodgerblue; */
+  }
+  .banner-link:first-child {
+    padding-left: 10px;
+  }
+}
+.banner-image {
+  width: 60px;
+  height: 60px;
+}
+.banner-text {
+  margin: 9px 0px 0px 0px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: rgb(64, 64, 64);
+}
+.banner-item-arrow-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.banner-arrow {
+  width: 19px;
+  margin-left: 20px;
+}
+.banner-text {
+  margin: 0px;
+  text-align: center;
+}

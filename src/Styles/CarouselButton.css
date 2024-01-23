@@ -1,0 +1,25 @@
+.carousel-arrow {
+  width: 42px;
+  height: 82px;
+  background-color: #ffffff;
+  position: absolute;
+  /* cursor: pointer; */
+  border: none;
+  z-index: 1;
+}
+@media (1190px >= width) {
+  .carousel-arrow {
+    display: none;
+  }
+}
+.next-arrow {
+  border-radius: 5px 0px 0px 5px;
+  top: 60px;
+  right: 0px;
+}
+.prev-arrow {
+  border-radius: 0px 5px 5px 0px;
+
+  top: 60px;
+  left: 0px;
+}

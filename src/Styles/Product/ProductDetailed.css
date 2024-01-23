@@ -1,0 +1,65 @@
+.detailed-container {
+  font-family: "Roboto", "Work Sans", sans-serif;
+  border: 1px solid red;
+}
+.product-middle-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.product-image {
+  width: 300px;
+  height: 300px;
+}
+.product-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+}
+.product-button {
+  width: 49%;
+  color: white;
+  border: none;
+  padding: 10px 5px;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.yellow-product-button {
+  background-color: #ff9f00;
+}
+.orange-product-button {
+  background-color: #fb641b;
+}
+.title-price-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 25px;
+  /* border: 1px solid black; */
+}
+.product-title {
+  margin: 0px;
+  font-size: 20px;
+}
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.rupee-icon {
+  width: 30px;
+  height: 30px;
+}
+.product-description {
+  font-size: 16px;
+  color: gray;
+}

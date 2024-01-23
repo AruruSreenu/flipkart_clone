@@ -1,0 +1,137 @@
+.main-container {
+  /* position: relative; */
+  /* border: 2px solid black; */
+  font-family: "Roboto", "Work Sans", sans-serif;
+}
+@media (400px >= width) {
+  .main-container {
+    width: 100%;
+  }
+}
+.below-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  /* border: 1px solid seagreen; */
+}
+.below-inner-container {
+  width: 98%;
+  /* border: 1px solid red; */
+}
+@media (400px >= width) {
+  .below-container {
+    width: 100%;
+  }
+  .below-inner-container {
+    width: 100%;
+  }
+}
+@media (1660px < width) {
+  .below-inner-container {
+    width: 1600px;
+    /* border: 2px solid yellow; */
+  }
+}
+@media (1190px >= width) {
+  .below-inner-container {
+    width: 1000px;
+  }
+}
+@media (1030px >= width) {
+  .below-inner-container {
+    width: 97%;
+  }
+}
+@media (760px >= width) {
+  .below-inner-container {
+    width: 420px;
+  }
+}
+.coupon-banner-container {
+  display: flex;
+  /* border: 1px solid salmon; */
+}
+.first-slider-container {
+  display: flex;
+  flex-direction: row;
+
+  /* align-items: center; */
+  /* border: 1px solid green; */
+}
+.first-products-container {
+  margin-top: 13px;
+  width: 83%;
+  padding: 0px 0px 7px 6px;
+  background-color: #ffffff;
+}
+
+@media (1190px >= width) {
+  .first-products-container {
+    width: 100%;
+  }
+}
+.first-slider-inner-container {
+  /* border: 1px solid red; */
+
+  background-color: #ffffff;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+@media (1190px >= width) {
+  .first-slider-inner-container {
+    display: none;
+  }
+}
+.coupun-banner {
+  margin-top: 25px;
+}
+.ten-percent-discount {
+  width: 100%;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+
+.three-banner-container {
+  width: 99%;
+  height: auto;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0px 5px;
+  background-color: #ffffff;
+}
+.banner-link-1 {
+  width: 33%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.three-banner {
+  width: 100%;
+}
+.cart-count-container {
+  height: 33px;
+  width: 22px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.cart-count {
+  width: 15px;
+  top: 0px;
+  right: 0px;
+  background-color: #ff6161;
+  font-size: 14px;
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+}
+.nav-menu-icon-special {
+  width: 35px;
+  height: 35px;
+}

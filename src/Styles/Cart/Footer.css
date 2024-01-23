@@ -1,0 +1,37 @@
+.cart-footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0rem 4.5rem 6rem 4.5rem;
+  height: 55px;
+  border-top: 1px solid lightgray;
+  color: rgb(88, 88, 88);
+  font-size: 14px;
+}
+.privecy-copy-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  /* border: 1px solid pink; */
+}
+.copy-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-left: 30px;
+}
+.Policy-text {
+  margin: 0px;
+}
+.copy-right-text {
+  margin: 0px;
+}
+.help-footer-text {
+  margin: 0px;
+}
+.copy-icon {
+  width: 15px;
+  height: 15px;
+}
